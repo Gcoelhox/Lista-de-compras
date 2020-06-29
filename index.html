@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de compras</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="fundo">
+        <header><p>Lista de compras</p></header>
+
+        <div id="add">
+            Adicionar itens
+            <input id="btn" type="button" value="+" onclick="add()">
+            <input id="btn" type="button" value="-" onclick="remove()">
+            <div id="res" name="nome"></div> 
+        </div>
+
+        <div id="gerar">
+            <input type="button" id="ger" value="Gerar" onclick="gerar()">
+        </div>
+             
+   </div>
+
+   
+    
+
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js" integrity="sha384-THVO/sM0mFD9h7dfSndI6TS0PgAGavwKvB5hAxRRvc0o9cPLohB0wb/PTA7LdUHs" crossorigin="anonymous"></script>
+</body>
+</html>
